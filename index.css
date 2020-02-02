@@ -203,6 +203,10 @@ footer {
   margin-top: 10vh;
 }
 
+#footerlink {
+  color: lightgray !important;
+}
+
 @media only screen and (max-width: 825px) {
   #logo {
     display: none !important;
@@ -243,7 +247,7 @@ footer {
   }
 
   a {
-    color: #333333 !important;
+    color: #333333;
   }
 
   p {
