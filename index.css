@@ -228,6 +228,10 @@ section {
   .contact-responsive {
     display: block;
     text-align: left;
-    font-size: 0.7em;
+    font-size: 0.6em;
+  }
+
+  section {
+    padding-top: 30vh;
   }
 }
