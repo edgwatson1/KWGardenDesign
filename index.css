@@ -189,6 +189,8 @@ footer {
   line-height: 2;
   color: white;
   height: 5%;
+  font-size: 0.7em;
+  padding-top: 1vh;
 }
 
 #contact {
@@ -263,11 +265,11 @@ footer {
   }
 
   #contact {
-    height: 90% !important;
+    height: 95% !important;
   }
 
   footer {
-    height: 10vh;
+    height: 5vh;
     width: 100vw;
   }
 }
