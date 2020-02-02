@@ -134,7 +134,7 @@ section {
 
 #home h1 {
   font-size: 3em;
-  padding-top: 8vh;
+  padding-top: 10vh;
 }
 
 #about {
@@ -192,6 +192,7 @@ section {
 
   nav ul li a {
     color: white;
+    font-size: 0.9em;
   }
 
   h1 {
@@ -199,7 +200,9 @@ section {
   }
 
   .logo-responsive {
-    margin-top: 10px;
+    margin-top: 20px;
+    font-size: 1em;
+    letter-spacing: 0.1em;
     display: block;
     margin: 0 auto;
   }
@@ -221,6 +224,10 @@ section {
     color: #333333 !important;
   }
 
+  p {
+    max-width: 30ch;
+  }
+
   .contact {
     display: none;
   }
@@ -232,6 +239,11 @@ section {
   }
 
   section {
-    padding-top: 30vh;
+    padding-top: 40%;
+  }
+
+  #services h1 {
+    font-size: 3em;
+    padding-top: 10vh !important;
   }
 }
