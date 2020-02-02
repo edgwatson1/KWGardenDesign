@@ -112,8 +112,8 @@ nav ul li a:hover {
 section {
   width: 100%;
   height: 100%;
-  padding-left: 10vw;
-  padding-right: 15vw;
+  padding-left: 7vw;
+  padding-right: 7vw;
   padding-top: 30vh;
   text-align: center;
 }
@@ -181,6 +181,19 @@ section {
   display: none;
 }
 
+footer {
+  width: 100vw;
+  background-color: #333333;
+  padding-left: 5%;
+  line-height: 2;
+  color: white;
+  height: 5%;
+}
+
+#contact {
+  height: 95% !important;
+}
+
 @media only screen and (max-width: 825px) {
   #logo {
     display: none !important;
@@ -242,8 +255,12 @@ section {
     padding-top: 40%;
   }
 
-  #services h1 {
-    font-size: 3em;
-    padding-top: 10vh !important;
+  #contact {
+    height: 90% !important;
+  }
+
+  footer {
+    height: 10vh;
+    width: 100vw;
   }
 }
