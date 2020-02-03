@@ -217,7 +217,7 @@ footer {
   }
 
   nav ul li a {
-    color: white;
+    color: #333333;
     font-size: 0.9em;
   }
 
@@ -244,6 +244,7 @@ footer {
     line-height: 5px;
     text-align: center;
     margin: 0 auto;
+    color: #333333;
   }
 
   a {
